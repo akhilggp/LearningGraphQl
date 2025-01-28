@@ -1,0 +1,5 @@
+enum Currency {
+    INR,
+    USD,
+    EURO
+}

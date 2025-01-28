@@ -1,0 +1,10 @@
+# All available queries
+type Query {
+    bankAccount(id: ID): BankAccount
+    bankAccounts: [BankAccount]
+}
+type Mutation {
+    createAccount(id: ID, name: String, currency: Currency): BankAccount
+    updateAccount(id: ID, name:  String, currency: Currency): String
+    deleteAccount(id: ID): String
+}
